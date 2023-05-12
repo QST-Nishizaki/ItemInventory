@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Guild\\Desktop\\new_employee_training2023-teamB_frontend\\ItemInventory\\ItemInventory\\ItemInventory.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Guild\\Desktop\\new_employee_training2023-teamB_frontend\\ItemInventory\\ItemInventory\\ItemInventory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Guild\\Desktop\\new_employee_training2023-teamB_frontend\\ItemInventory\\ItemInventory\\ItemInventory.csproj",
+        "projectName": "ItemInventory",
+        "projectPath": "C:\\Users\\Guild\\Desktop\\new_employee_training2023-teamB_frontend\\ItemInventory\\ItemInventory\\ItemInventory.csproj",
+        "packagesPath": "C:\\Users\\Guild\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Guild\\Desktop\\new_employee_training2023-teamB_frontend\\ItemInventory\\ItemInventory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Guild\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.14.0, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
